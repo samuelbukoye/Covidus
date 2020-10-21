@@ -3,10 +3,6 @@ body{
     background-color: aliceblue;
     min-width: 280px;
 }
-h1,h3{
-    color: #1B1F6B;
-}
-
 /* header */
 /* navbar */
 header nav{
@@ -103,7 +99,7 @@ header>section{
 header>section>div{
     height: 100%;
     max-width: 100%;
-    background-image: url('/images/header-img.png');
+    background-image: url('/images/information-board/header-img.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -111,6 +107,7 @@ header h1,header form{
     margin: auto;
 }
 header h1{
+    color: #1B1F6B;
     max-width: 900px;
     padding-top: 60px;
 }
@@ -133,6 +130,9 @@ main{
 }
 main section{
     margin-bottom: 30px;
+}
+main section h3{
+    color: #1B1F6B;
 }
 @media (max-width: 991px){
     main>section>h3{

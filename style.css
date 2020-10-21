@@ -6,10 +6,6 @@ body{
 }
 /* navbar */
 
-h1{
-    color: #1B1F6B;
-}
-
 header nav{
     height: 60px;
     background-color: #fff;
@@ -85,9 +81,53 @@ header nav{
   }
 
 /* header */
-header{
+
+/* header section */
+header>section{
     margin-top: 60px;
+    padding-top: 30px;
+    height: 550px;
+    background: #F26187;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 100px;
 }
+@media (max-width: 768px){
+    header>section{
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+
+header>section>section>div{
+    margin: auto;
+    /* padding: 30px; */
+    /* height: 100%; */
+    max-width: 500px;
+}
+header>section>section>div
+header>section>div{
+    height: 100%;
+    max-width: 100%;
+    background-image: url('/images/information-board/header-img.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header h1{
+    margin: auto;
+    color: #1B1F6B;
+    max-width: 900px;
+    padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+
 
 .col-sm-2{
     background-color: aqua;
@@ -119,5 +159,3 @@ div.card{
 
 }
 
-
-    
