@@ -1,11 +1,11 @@
 /* generic */
 body{
     background-color: aliceblue;
-    min-width: 280px;
+    min-width: 300px;
 }
 /* header */
 /* navbar */
-header nav{
+nav{
     height: 60px;
     background-color: #fff;
 }
@@ -23,6 +23,9 @@ header nav{
     border-radius: 5px;
     color:#fff;
     background: #F26187;
+}
+.navbar .nav-item.active .nav-link{
+    color: rgb(211, 44, 44);
 }
 
 .navbar-light .nav-item .sign-up{
@@ -65,10 +68,10 @@ header nav{
       visibility: visible;
       transform: translateX(-100%);
     }
-    header nav ul{
+    nav ul{
         padding-top: 10px;
     }
-    header nav ul li{
+    nav ul li{
         padding-left: 20px;
     }
   }
@@ -110,6 +113,7 @@ header h1{
     color: #1B1F6B;
     max-width: 900px;
     padding-top: 60px;
+    font-weight: 700;
 }
 header form{
     max-width: 500px;
