@@ -102,7 +102,7 @@ header>section>section{
 header>section>div{
     height: 100%;
     width: 100%;
-    background-image: url('/images/homepage/header-img.png');
+    background-image: url('./images/homepage/header-img.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -119,7 +119,7 @@ header>section>div{
     header>section>section{
         height: 100%;
         width: 100%;
-        background-image: url('/images/homepage/header-img.png');
+        background-image: url('./images/homepage/header-img.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -354,13 +354,13 @@ main .survival-stories .story p{
     line-height: 32px;
 }
 main .survival-stories .story.div-bg-1{
-    background-image: url("/images/homepage/man-with-a-mask.png");
+    background-image: url("./images/homepage/man-with-a-mask.png");
 }
 main .survival-stories .story.div-bg-2{
-    background-image: url("/images/homepage/lady-with-tongue-out.png");
+    background-image: url("./images/homepage/lady-with-tongue-out.png");
 }
 main .survival-stories .story.div-bg-3{
-    background-image: url("/images/homepage/man-with-his-kid.png");
+    background-image: url("./images/homepage/man-with-his-kid.png");
 }
 main .survival-stories .more-videos.btn{
     font-weight: 500;
